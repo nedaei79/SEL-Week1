@@ -1,8 +1,8 @@
-def get_fibonacci(n: int) -> int:
-  return 0
+def get_fibonacci(n: int) -> list:
+  return [1]
 
 
-def print_result(fibonacci_n: int):
+def print_result(fibonacci_n: list):
   print(fibonacci_n)
 
 
