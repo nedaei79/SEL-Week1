@@ -1,5 +1,8 @@
 def get_fibonacci(n: int) -> list:
-  return [1]
+  res = [1, 1]
+  for i in range(n - 1):
+    res.append(res[-1] + res[-2])
+  return res[:n + 1]
 
 
 def print_result(fibonacci_n: list):
