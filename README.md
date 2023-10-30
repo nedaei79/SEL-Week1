@@ -26,7 +26,26 @@
 
 
 ### ایجاد شاخه feature، توسعه و merge آن
+برای تغییر نحوه print کردن خروجی یک شاخه جدید به نام feature-print را به صورت زیر ایجاد می‌کنیم. این شاخه پیش از merge شدن شاخه dev ایجاد شده است:
+![create-feature-branchpng](https://github.com/nedaei79/SEL-Week1/assets/59169318/9992ec52-2a25-40ab-be2c-6516b12c279e)
 
+سپس کد مورد را پیاده‌سازی کرده و commit می‌کنیم:
+![implement-pretty-print-commit](https://github.com/nedaei79/SEL-Week1/assets/59169318/eb60fabc-9eef-441b-970d-9b1c0765fa78)
+
+و در نهایت شاخه جدید را بر روی remote پوش می‌کنیم:
+![push-feature-print-2origin](https://github.com/nedaei79/SEL-Week1/assets/59169318/d82a120b-a117-4611-9a53-cf4226560d2d)
+
+بعد از این کار شاخه dev مرج می‌شود که در بخش قبل مشاهده کردیم. پس از آن به صورت زیر pull request برای شاخه feature ایجاد می‌شود:
+![pull-req-feature-print](https://github.com/nedaei79/SEL-Week1/assets/59169318/38cfe3ee-15d0-4e08-85d9-652f97dfe3c3)
+
+همانطور که مشاهده می‌کنیم به دلیل merge شدن شاخه dev باید conflict موجود را ابتدا برطرف کنیم. برای این کار شاخه master را pull می‌کنیم و به صورتی که در سه تصویر زیر مشاهده می‌کنیم conflict را برطرف کرده و تغییرات را push می‌کنیم:
+![resolve-print-conf](https://github.com/nedaei79/SEL-Week1/assets/59169318/ef4d2a6d-dae0-4ac9-9e68-a06b75eee16a)
+
+![before-resolve-print-conf](https://github.com/nedaei79/SEL-Week1/assets/59169318/12f8f518-faa4-488e-bc29-db979a77461e)
+
+![print-conf-after-res](https://github.com/nedaei79/SEL-Week1/assets/59169318/f196cf1a-6665-464f-99b8-f388e2d7c733)
+
+در نهایت وضعیت pull request در github تغییر کرده و آن را approve می‌کنیم.
 
 ### ایجاد تغییر مختصر با هدف برخوردن به conflict دوم
 
