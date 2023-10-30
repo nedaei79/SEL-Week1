@@ -43,7 +43,7 @@
 برای تغییر نحوه print کردن خروجی یک شاخه جدید به نام feature-print را به صورت زیر ایجاد می‌کنیم. این شاخه پیش از merge شدن شاخه dev ایجاد شده است:
 ![create-feature-branchpng](https://github.com/nedaei79/SEL-Week1/assets/59169318/9992ec52-2a25-40ab-be2c-6516b12c279e)
 
-سپس کد مورد را پیاده‌سازی کرده و commit می‌کنیم:
+سپس کد مورد نظر را پیاده‌سازی کرده و commit می‌کنیم:
 ![implement-pretty-print-commit](https://github.com/nedaei79/SEL-Week1/assets/59169318/eb60fabc-9eef-441b-970d-9b1c0765fa78)
 
 و در نهایت شاخه جدید را بر روی remote پوش می‌کنیم:
