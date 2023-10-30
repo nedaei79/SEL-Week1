@@ -49,6 +49,16 @@
 
 ### ایجاد تغییر مختصر با هدف برخوردن به conflict دوم
 
+برای ایجاد conflict دوم ابتدا جای تو تابع موجود در فایل main.py را تغییر می‌دهیم و بر روی شاخه master پوش می‌کنیم. در همین حین فرد توسعه‌دهنده دیگر بدون pull کردن یک کامنت به تایع print result اضافه می‌کند و تلاش می‌کند آن را بر روی remote پوش کند اما با خطا روبرو می‌شود:
+![change-and-runinto-conf](https://github.com/nedaei79/SEL-Week1/assets/59169318/39173f9b-2ea5-415e-8a2a-601022b407bb)
+
+در ادامه برای برطرف کردن آن ابتدا تغییرات را از remote بر روی شاخه اصلی pull می‌کنیم و سپس همانطور که در سه تصویر زیر مشاهده می‌کنیم conflict را برطرف کرده و تغییرات را commit می‌کنیم:
+![commit-resolve-2nd-conf](https://github.com/nedaei79/SEL-Week1/assets/59169318/efa6ed72-1c75-4392-b7e5-f1c5a70f4e66)
+
+![before-resolve-2nd-conf](https://github.com/nedaei79/SEL-Week1/assets/59169318/7917f090-8d0e-4222-b961-73cbb6a44285)
+
+![after-resolve-2nd-conf](https://github.com/nedaei79/SEL-Week1/assets/59169318/1a6bebe5-8b86-4841-a20d-20284a45d9bc)
+
 
 ## پاسخ پرسش‌ها
 ### پرسش یک
