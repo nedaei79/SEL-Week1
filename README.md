@@ -23,6 +23,20 @@
 <img width="960" alt="0pull-request" src="https://github.com/nedaei79/SEL-Week1/assets/62210316/c7d541a2-477e-4b35-a8dd-da3ab7c82312">
 
 ### ایجاد شاخه dev، توسعه و merge آن
+ابتدا شاخه dev-fibonacci را که قرار است روی آن تابع fibonacci پیاده‌سازی شود، ایجاد می‌کنیم:
+<img width="960" alt="8branch" src="https://github.com/nedaei79/SEL-Week1/assets/62210316/c98f7bc4-79dd-473c-aaac-8e2d2d7cfb76">
+
+سپس روی این شاخه تابع fibonacci را پیاده‌سازی می‌کنیم:
+<img width="960" alt="9fibonacci" src="https://github.com/nedaei79/SEL-Week1/assets/62210316/06a8b406-a411-4740-9a33-418ca25cf48a">
+
+در نهایت تغییرات را commit و push می‌کنیم:
+<img width="960" alt="10publish-fibonacci" src="https://github.com/nedaei79/SEL-Week1/assets/62210316/b8f4b9a6-8f05-46a6-9297-583821b07caa">
+
+حالا در مخزن پروژه یک pull request ثبت می‌کنیم تا پیاده‌سازی انجام شده روی این شاخه با شاخه master مرج شود:
+<img width="960" alt="11pull-request-fibonacci" src="https://github.com/nedaei79/SEL-Week1/assets/62210316/ebb962a2-b855-41df-8a54-e3f20ea624fe">
+
+در نهایت بعد از دریافت approval از توسعه‌دهنده دیگر پروژه (مطابق تنظیمات rule ساخته شده) شاخه dev با master مرج می‌شود:
+<img width="960" alt="12approval" src="https://github.com/nedaei79/SEL-Week1/assets/62210316/d3b1f2cf-2bc2-49b5-930a-edcc9c7e7d69">
 
 
 ### ایجاد شاخه feature، توسعه و merge آن
